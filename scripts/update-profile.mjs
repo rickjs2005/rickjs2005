@@ -18,7 +18,27 @@ const supported = new Set([
   "ForkEvent",
 ]);
 
-const recent = events.filter((event) => supported.has(event.type)).slice(0, 5);
+const ownProfileRepository = process.env.GITHUB_REPOSITORY;
+const seen = new Set();
+const recent = events
+  .filter(
+    (event) =>
+      supported.has(event.type) &&
+      event.repo?.name !== ownProfileRepository,
+  )
+  .filter((event) => {
+    const payload = event.payload ?? {};
+    const identity = [
+      event.type,
+      event.repo?.name,
+      payload.number ?? payload.issue?.number ?? payload.release?.tag_name ?? "",
+    ].join(":");
+
+    if (seen.has(identity)) return false;
+    seen.add(identity);
+    return true;
+  })
+  .slice(0, 5);
 
 const date = (value) => new Date(value).toISOString().slice(0, 10);
 const repoUrl = (name) => `https://github.com/${name}`;
@@ -36,7 +56,10 @@ function activity(event) {
       return {
         label: "PUSH",
         repo,
-        detail: `${count} ${plural(count, "commit", "commits")}`,
+        detail:
+          count > 0
+            ? `${count} ${plural(count, "commit", "commits")}`
+            : "branch update",
         url: repoUrl(repo),
         createdAt: event.created_at,
       };
