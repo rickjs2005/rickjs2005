@@ -2,59 +2,102 @@
 
 # Rick JS
 
-### Desenvolvedor Full-Stack · Fundador da MilWeb
+### Full-Stack Software Engineer
 
-Transformo ideias em **sites premium, sistemas sob medida e experiências digitais**  
-com foco em estratégia, performance e resultado para o negócio.
+Construo **produtos SaaS, aplicações multi-tenant, APIs e sistemas orientados a domínio**,  
+do desenho da arquitetura ao deploy e à operação em produção.
 
-[![Portfólio](https://img.shields.io/badge/Conheça_a_MilWeb-111111?style=for-the-badge&logo=googlechrome&logoColor=FFFFFF)](https://milweb.com.br)
+[Website](https://milweb.com.br) · [Repositórios](https://github.com/rickjs2005?tab=repositories)
 
 </div>
 
 ---
 
-## Sobre
+## Perfil técnico
 
-Sou desenvolvedor e fundador da **[MilWeb](https://milweb.com.br)**. Atuo do conceito ao deploy, combinando engenharia de software, design de interação e visão de produto para criar experiências que funcionam tão bem quanto impressionam.
+Desenvolvedor full-stack com atuação no ciclo completo de produto: modelagem de domínio, arquitetura, banco de dados, backend, frontend, testes, segurança, observabilidade e infraestrutura.
 
-- Sites institucionais e landing pages orientados à conversão
-- Sistemas full-stack, CRMs e produtos SaaS
-- Interfaces cinematográficas com animação, 3D e scrollytelling
-- Performance, SEO técnico, analytics e automações
+Tenho interesse especial em problemas que envolvem:
 
-## Stack
+- arquitetura modular e Clean Architecture;
+- multi-tenancy, autorização por papéis e Row Level Security;
+- processamento assíncrono, filas, workers e automações;
+- comunicação em tempo real e integrações externas;
+- contratos de API, consistência de dados e rastreabilidade;
+- performance, testes automatizados e operação em produção.
 
-**Frontend**  
-TypeScript · Next.js · React · Tailwind CSS
+## Tecnologias
 
-**Backend & dados**  
-Node.js · Express · PostgreSQL · Prisma · Supabase
+| Área | Tecnologias |
+| --- | --- |
+| **Linguagens** | TypeScript, JavaScript, SQL |
+| **Frontend** | Next.js, React, Expo, Tailwind CSS |
+| **Backend** | Node.js, Express, REST APIs, Socket.IO |
+| **Dados** | PostgreSQL, MySQL, Prisma, Supabase, Redis |
+| **Arquitetura** | Clean Architecture, monólito modular, monorepos, multi-tenancy, RLS |
+| **Assíncrono** | BullMQ, pg-boss, workers e tarefas agendadas |
+| **Testes** | Vitest, Jest, Supertest, Testing Library, Playwright |
+| **Infraestrutura** | Docker, Vercel, Render, Cloudflare R2, Sentry |
 
-**Creative development**  
-GSAP · Lenis · Three.js · React Three Fiber
+## Projetos de engenharia
 
-**Qualidade & entrega**  
-Playwright · Lighthouse · SEO · GA4/GTM · Vercel
+### [MilLead](https://github.com/rickjs2005/millead)
 
-## Projetos selecionados
+CRM e plataforma operacional da MilWeb. Monólito modular multi-tenant com **Clean Architecture**, PostgreSQL, Prisma e filas no próprio banco com pg-boss.
 
-| Projeto | Destaque | Links |
-| --- | --- | --- |
-| **MilWeb** | Portfólio da minha marca com direção visual, animações e experiências interativas. | [Site](https://milweb.com.br) · [Código](https://github.com/rickjs2005/milweb) |
-| **MilLead** | CRM full-stack para leads, pipeline, contratos, financeiro, projetos e automações pós-venda. | [Código](https://github.com/rickjs2005/millead) |
-| **Alva Odontologia** | Experiência institucional cinematográfica com vídeo controlado pelo scroll e foco em performance. | [Demo](https://alva-odontologia.vercel.app) · [Código](https://github.com/rickjs2005/alva-odontologia) |
-| **Terral** | Experiência imersiva para uma marca de café usando 3D, scrollytelling e direção de arte. | [Demo](https://terral-delta.vercel.app) · [Código](https://github.com/rickjs2005/terral) |
-| **Aurex Motors** | Conceito automotivo com carro 100% procedural em Three.js e direção cinematográfica. | [Código](https://github.com/rickjs2005/aurex-motors) |
-| **Loja de iPhone** | Demo comercial com catálogo, carrinho, captação de lead e conversão pelo WhatsApp. | [Demo](https://loja-iphone-kohl.vercel.app) · [Código](https://github.com/rickjs2005/loja-de-iphone) |
+- Pipeline comercial, contratos, briefings, financeiro e gestão de projetos
+- Automações pós-fechamento e tarefas assíncronas
+- Separação entre domínio, aplicação, infraestrutura e interfaces
+- Monorepo com Next.js, Node.js, Express e Turborepo
 
-## Como eu trabalho
+### [Milsaca](https://github.com/rickjs2005/milsaca)
 
-Cada projeto começa pelo objetivo do negócio. Depois, transformo estratégia em interface, código e uma entrega pronta para produção — responsiva, rápida, mensurável e fácil de evoluir.
+SaaS de corretagem de café para produtores, corretoras e administradores, com aplicações web e mobile.
+
+- Monorepo com Next.js, Expo e pacotes compartilhados
+- PostgreSQL 17, Supabase Auth, RLS e Realtime
+- Modelagem do domínio de classificação COB, negociações, contratos e entregas
+- Sincronização de cotações externas e arquitetura multi-tenant
+
+### [InkVision](https://github.com/rickjs2005/inkvision)
+
+Plataforma SaaS multi-tenant para estúdios de tatuagem, organizada por casos de uso e portas de infraestrutura.
+
+- Clean Architecture com domínio independente de framework
+- PostgreSQL, Prisma, RLS e autorização contextual
+- Socket.IO para comunicação em tempo real
+- Redis, BullMQ, workers, Stripe e armazenamento compatível com R2
+- State machine para o ciclo completo de pedidos
+
+### [Kavita API](https://github.com/rickjs2005/ecommerce-do-agro-backend)
+
+API REST para uma plataforma de comércio e conteúdo do setor agro.
+
+- Arquitetura em camadas: rotas, controllers, services e repositories
+- MySQL, Redis, migrations e validação com Zod
+- JWT em cookies HttpOnly, CSRF, CORS, Helmet e rate limiting
+- Testes unitários e de integração com Jest e Supertest
+- Swagger, logs estruturados, health checks e múltiplos provedores de storage
+
+### [Kavita Frontend](https://github.com/rickjs2005/ecommerce-do-agro-frontend)
+
+Aplicação Next.js com área pública, conta do usuário, checkout e painel administrativo.
+
+- App Router, React Server Components, SWR e contratos validados com Zod
+- Catálogo, pedidos, pagamentos, conteúdo e gestão administrativa
+- Vitest, Testing Library, Sentry e suporte PWA
+- Documentação de arquitetura, fluxos críticos, testes e deploy
+
+## Creative engineering
+
+Também exploro gráficos e interação em tempo real. O projeto **[Aurex Motors](https://github.com/rickjs2005/aurex-motors)** renderiza um automóvel procedural em Three.js/React Three Fiber, com câmera, iluminação e configuração controladas por estado mutável fora do ciclo de renderização do React.
+
+---
 
 <div align="center">
 
-### Tem um projeto em mente?
+Aberto a oportunidades em **engenharia full-stack, backend e desenvolvimento de produtos digitais**.
 
-[![Solicitar orçamento](https://img.shields.io/badge/Solicitar_um_orçamento-E7B75F?style=for-the-badge&logo=googlechrome&logoColor=111111)](https://milweb.com.br)
+[Conhecer meu trabalho](https://milweb.com.br)
 
 </div>
