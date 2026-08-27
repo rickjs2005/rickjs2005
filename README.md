@@ -1,129 +1,172 @@
-![Rick JS — Full-Stack Software Engineer](./assets/profile-header.svg)
-
 <div align="center">
 
-`SYSTEM DESIGN` · `BACKEND` · `FULL-STACK` · `PRODUCT ENGINEERING`
+# Rick JS
+
+**Engenheiro full-stack construindo sistemas do domínio à produção.**  
+<sub>Full-stack engineer building systems from domain model to production.</sub>
+
+<br>
+
+<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=F2B84B" alt="TypeScript">
+<img src="https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=nodedotjs&logoColor=F2B84B" alt="Node.js">
+<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=F2B84B" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=nextdotjs&logoColor=F2B84B" alt="Next.js">
+<img src="https://img.shields.io/badge/Systems_Architecture-0D1117?style=flat-square&logo=buffer&logoColor=F2B84B" alt="Systems Architecture">
+<img src="https://img.shields.io/badge/SaaS-0D1117?style=flat-square&logo=icloud&logoColor=F2B84B" alt="SaaS">
+
+<br><br>
+
+[Trabalho / Work](#sistemas-selecionados--selected-systems) ·
+[Atividade / Activity](#sinal-público--public-signal) ·
+[MilWeb](https://milweb.com.br)
 
 </div>
 
-## 01 — Profile
+---
 
-I build software from the **domain model to production**: architecture, database design, APIs, frontend, asynchronous processing, tests, security and observability.
+Gosto de transformar regras de negócio confusas em **domínios explícitos, fluxos confiáveis e software que continua compreensível conforme cresce**.
 
-```ts
-const engineeringFocus = {
-  architecture: ["Clean Architecture", "Modular Monolith", "Multi-tenancy"],
-  systems: ["SaaS", "REST APIs", "Realtime", "Workers & Queues"],
-  priorities: ["Correctness", "Maintainability", "Performance", "Security"],
-} as const;
-```
-
-My strongest work sits at the intersection of product and engineering: translating business rules into well-defined domains, reliable data flows and software that can evolve without becoming fragile.
-
-## 02 — Core systems
+I enjoy turning messy business rules into **explicit domains, reliable flows and software that remains understandable as it grows**.
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### [MilLead](https://github.com/rickjs2005/millead)
+### Arquitetura  
+<sub>Architecture</sub>
 
-**CRM and operations platform**
-
-`CLEAN ARCHITECTURE` `MULTI-TENANT` `JOBS`
-
-Modular monolith with Next.js, Node.js, Express, PostgreSQL and Prisma. Covers leads, pipeline, contracts, finance, projects and post-sale automation.
-
-**Engineering:** domain/application/infrastructure boundaries, organization-scoped data and pg-boss queues.
+Clean Architecture  
+Monólitos modulares  
+Modelagem de domínio  
+Monorepos
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### [Milsaca](https://github.com/rickjs2005/milsaca)
+### Plataforma  
+<sub>Platform</sub>
 
-**Coffee brokerage SaaS**
-
-`WEB + MOBILE` `RLS` `REALTIME`
-
-Turborepo with Next.js and Expo for producers, brokers and platform admins. Includes quotations, COB classification reports, contracts and deliveries.
-
-**Engineering:** PostgreSQL 17, Supabase Auth, Row Level Security, Realtime and shared domain packages.
+APIs REST  
+Realtime  
+Filas e workers  
+Web + mobile
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### [InkVision](https://github.com/rickjs2005/inkvision)
+### Confiabilidade  
+<sub>Reliability</sub>
 
-**Multi-tenant studio platform**
-
-`DOMAIN CORE` `REALTIME` `STATE MACHINE`
-
-SaaS organized around framework-independent use cases and infrastructure ports. Supports orders, budgets, realtime chat, scheduling and payments.
-
-**Engineering:** Prisma, PostgreSQL, Redis, BullMQ, Socket.IO, Stripe, R2-compatible storage and contextual authorization.
-
-</td>
-<td width="50%" valign="top">
-
-### [Kavita Platform](https://github.com/rickjs2005/ecommerce-do-agro-backend)
-
-**Commerce and content system**
-
-`REST API` `SECURITY` `TESTING`
-
-Node.js/Express API and a separate [Next.js frontend](https://github.com/rickjs2005/ecommerce-do-agro-frontend), with commerce, content, users, payments and administration.
-
-**Engineering:** layered architecture, MySQL, Redis, Zod, HttpOnly auth, CSRF, rate limiting, Swagger, Jest, Supertest and Vitest.
+Multi-tenancy e RLS  
+Testes automatizados  
+Observabilidade  
+Segurança por design
 
 </td>
 </tr>
 </table>
 
-## 03 — Toolbox
+## Sinal público / Public signal
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-111318?style=for-the-badge&logo=typescript&logoColor=F4B860" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Node.js-111318?style=for-the-badge&logo=nodedotjs&logoColor=F4B860" alt="Node.js">
-  <img src="https://img.shields.io/badge/Next.js-111318?style=for-the-badge&logo=nextdotjs&logoColor=F4B860" alt="Next.js">
-  <img src="https://img.shields.io/badge/PostgreSQL-111318?style=for-the-badge&logo=postgresql&logoColor=F4B860" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Prisma-111318?style=for-the-badge&logo=prisma&logoColor=F4B860" alt="Prisma">
-  <img src="https://img.shields.io/badge/Redis-111318?style=for-the-badge&logo=redis&logoColor=F4B860" alt="Redis">
-  <img src="https://img.shields.io/badge/Docker-111318?style=for-the-badge&logo=docker&logoColor=F4B860" alt="Docker">
-  <img src="https://img.shields.io/badge/Playwright-111318?style=for-the-badge&logo=playwright&logoColor=F4B860" alt="Playwright">
-</p>
+<img src="./assets/live-status.svg" width="100%" alt="Atividade pública recente de engenharia">
 
-| Architecture | Platform | Quality |
-| --- | --- | --- |
-| Clean Architecture | REST and Realtime | Automated tests |
-| Modular monoliths | Workers and queues | Structured logging |
-| Domain modeling | Web and mobile | Health checks |
-| Multi-tenancy and RLS | External integrations | Security by design |
+<sub>Este card é gerado diariamente a partir da atividade pública do GitHub. Nenhum contador manual.  
+This card is generated daily from public GitHub activity. No manually entered metrics.</sub>
 
-## 04 — Technical interests
+### Atividade recente / Recent activity
 
-```text
-domain modeling       → rules that remain explicit
-authorization         → tenant isolation and contextual access
-async processing      → queues, retries and idempotency
-realtime systems      → events, presence and messaging
-observability         → logs, health checks and production signals
-developer experience  → documentation, repeatable setup and safe migrations
-```
+<!--START_SECTION:activity-->
+_A automação está preparando a atividade recente / The workflow is preparing recent activity._
+<!--END_SECTION:activity-->
 
-## 05 — Creative engineering
+## Sistemas selecionados / Selected systems
 
-Beyond application engineering, I explore realtime graphics and interaction. **[Aurex Motors](https://github.com/rickjs2005/aurex-motors)** renders a procedural vehicle with Three.js and React Three Fiber, using a mutable world model for animation without React re-renders.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [MilLead →](https://github.com/rickjs2005/millead)
+
+**CRM e plataforma operacional**  
+<sub>CRM and operations platform</sub>
+
+`modular monolith` `multi-tenant` `jobs`
+
+Next.js · Node.js · Express · PostgreSQL · Prisma · pg-boss
+
+Regras comerciais, contratos, financeiro, projetos e automações pós-venda organizadas em domínio, aplicação e infraestrutura.
+
+<sub>Commercial workflows, contracts, finance, projects and post-sale automation separated into domain, application and infrastructure.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### [Milsaca →](https://github.com/rickjs2005/milsaca)
+
+**SaaS de corretagem de café**  
+<sub>Coffee brokerage SaaS</sub>
+
+`web + mobile` `RLS` `realtime`
+
+Next.js · Expo · Supabase · PostgreSQL 17 · Turborepo
+
+Produto multi-tenant para produtores, corretoras e administradores, incluindo classificação COB, cotações, contratos e entregas.
+
+<sub>Multi-tenant product for producers, brokers and admins, including COB classification, quotations, contracts and deliveries.</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [InkVision →](https://github.com/rickjs2005/inkvision)
+
+**Plataforma multi-tenant para estúdios**  
+<sub>Multi-tenant studio platform</sub>
+
+`domain core` `realtime` `state machine`
+
+Prisma · PostgreSQL · Redis · BullMQ · Socket.IO · Stripe
+
+Casos de uso independentes de framework, autorização contextual, pedidos com máquina de estados, chat e processamento assíncrono.
+
+<sub>Framework-independent use cases, contextual authorization, order state machine, realtime chat and async processing.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### [Kavita Platform →](https://github.com/rickjs2005/ecommerce-do-agro-backend)
+
+**Plataforma de comércio e conteúdo**  
+<sub>Commerce and content platform</sub>
+
+`REST API` `security` `testing`
+
+Node.js · Express · MySQL · Redis · Jest · Supertest
+
+API em camadas com autenticação HttpOnly, CSRF, rate limiting, migrations, Swagger, testes e [frontend Next.js](https://github.com/rickjs2005/ecommerce-do-agro-frontend).
+
+<sub>Layered API with HttpOnly authentication, CSRF, rate limiting, migrations, Swagger, tests and a separate Next.js frontend.</sub>
+
+</td>
+</tr>
+</table>
+
+## Fora da caixa / Outside the box
+
+**[Aurex Motors](https://github.com/rickjs2005/aurex-motors)** é um experimento de creative engineering: um automóvel procedural renderizado em Three.js e React Three Fiber, com animação dirigida por um modelo mutável fora do ciclo de renderização do React.
+
+<sub>**Aurex Motors** is a creative engineering experiment: a procedural vehicle rendered with Three.js and React Three Fiber, driven by a mutable world model outside React's render cycle.</sub>
 
 ---
 
 <div align="center">
 
-### Build systems, not just screens.
+**Construir, medir, aprender, simplificar.**  
+<sub>Build, measure, learn, simplify.</sub>
 
-Full-stack engineering · Backend · Digital products
+<br><br>
 
-[**milweb.com.br**](https://milweb.com.br)
+[Website](https://milweb.com.br) · [Repositories](https://github.com/rickjs2005?tab=repositories)
 
 </div>
