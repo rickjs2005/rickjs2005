@@ -1,0 +1,49 @@
+name: Update public profile signal
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update-profile.mjs"
+      - ".github/workflows/update-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: public-profile-signal
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Fetch public GitHub activity
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api "users/${GITHUB_REPOSITORY_OWNER}/events/public?per_page=100" > events.json
+
+      - name: Generate profile signal
+        run: node scripts/update-profile.mjs events.json README.md
+
+      - name: Commit updated signal
+        run: |
+          if git diff --quiet; then
+            echo "Profile signal is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/live-status.svg
+          git commit -m "chore: refresh public profile signal"
+          git push
