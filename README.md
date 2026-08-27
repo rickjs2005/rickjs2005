@@ -55,6 +55,6 @@ Cada projeto começa pelo objetivo do negócio. Depois, transformo estratégia e
 
 ### Tem um projeto em mente?
 
-[![Solicitar orçamento](https://img.shields.io/badge/Solicitar_um_orçamento-E7B75F?style=for-the-badge&logo=whatsapp&logoColor=111111)](https://milweb.com.br)
+[![Solicitar orçamento](https://img.shields.io/badge/Solicitar_um_orçamento-E7B75F?style=for-the-badge&logo=googlechrome&logoColor=111111)](https://milweb.com.br)
 
 </div>
