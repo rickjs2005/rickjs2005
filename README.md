@@ -28,7 +28,7 @@ Gosto de transformar regras de negócio confusas em **domínios explícitos, flu
 
 I enjoy turning messy business rules into **explicit domains, reliable flows and software that remains understandable as it grows**.
 
-<table>
+<table width="100%">
 <tr>
 <td width="33%" valign="top">
 
@@ -85,7 +85,7 @@ This card is generated daily from public GitHub activity. No manually entered me
 
 ## Sistemas selecionados / Selected systems
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 
