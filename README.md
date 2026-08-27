@@ -1,103 +1,129 @@
+![Rick JS — Full-Stack Software Engineer](./assets/profile-header.svg)
+
 <div align="center">
 
-# Rick JS
-
-### Full-Stack Software Engineer
-
-Construo **produtos SaaS, aplicações multi-tenant, APIs e sistemas orientados a domínio**,  
-do desenho da arquitetura ao deploy e à operação em produção.
-
-[Website](https://milweb.com.br) · [Repositórios](https://github.com/rickjs2005?tab=repositories)
+`SYSTEM DESIGN` · `BACKEND` · `FULL-STACK` · `PRODUCT ENGINEERING`
 
 </div>
 
----
+## 01 — Profile
 
-## Perfil técnico
+I build software from the **domain model to production**: architecture, database design, APIs, frontend, asynchronous processing, tests, security and observability.
 
-Desenvolvedor full-stack com atuação no ciclo completo de produto: modelagem de domínio, arquitetura, banco de dados, backend, frontend, testes, segurança, observabilidade e infraestrutura.
+```ts
+const engineeringFocus = {
+  architecture: ["Clean Architecture", "Modular Monolith", "Multi-tenancy"],
+  systems: ["SaaS", "REST APIs", "Realtime", "Workers & Queues"],
+  priorities: ["Correctness", "Maintainability", "Performance", "Security"],
+} as const;
+```
 
-Tenho interesse especial em problemas que envolvem:
+My strongest work sits at the intersection of product and engineering: translating business rules into well-defined domains, reliable data flows and software that can evolve without becoming fragile.
 
-- arquitetura modular e Clean Architecture;
-- multi-tenancy, autorização por papéis e Row Level Security;
-- processamento assíncrono, filas, workers e automações;
-- comunicação em tempo real e integrações externas;
-- contratos de API, consistência de dados e rastreabilidade;
-- performance, testes automatizados e operação em produção.
+## 02 — Core systems
 
-## Tecnologias
-
-| Área | Tecnologias |
-| --- | --- |
-| **Linguagens** | TypeScript, JavaScript, SQL |
-| **Frontend** | Next.js, React, Expo, Tailwind CSS |
-| **Backend** | Node.js, Express, REST APIs, Socket.IO |
-| **Dados** | PostgreSQL, MySQL, Prisma, Supabase, Redis |
-| **Arquitetura** | Clean Architecture, monólito modular, monorepos, multi-tenancy, RLS |
-| **Assíncrono** | BullMQ, pg-boss, workers e tarefas agendadas |
-| **Testes** | Vitest, Jest, Supertest, Testing Library, Playwright |
-| **Infraestrutura** | Docker, Vercel, Render, Cloudflare R2, Sentry |
-
-## Projetos de engenharia
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### [MilLead](https://github.com/rickjs2005/millead)
 
-CRM e plataforma operacional da MilWeb. Monólito modular multi-tenant com **Clean Architecture**, PostgreSQL, Prisma e filas no próprio banco com pg-boss.
+**CRM and operations platform**
 
-- Pipeline comercial, contratos, briefings, financeiro e gestão de projetos
-- Automações pós-fechamento e tarefas assíncronas
-- Separação entre domínio, aplicação, infraestrutura e interfaces
-- Monorepo com Next.js, Node.js, Express e Turborepo
+`CLEAN ARCHITECTURE` `MULTI-TENANT` `JOBS`
+
+Modular monolith with Next.js, Node.js, Express, PostgreSQL and Prisma. Covers leads, pipeline, contracts, finance, projects and post-sale automation.
+
+**Engineering:** domain/application/infrastructure boundaries, organization-scoped data and pg-boss queues.
+
+</td>
+<td width="50%" valign="top">
 
 ### [Milsaca](https://github.com/rickjs2005/milsaca)
 
-SaaS de corretagem de café para produtores, corretoras e administradores, com aplicações web e mobile.
+**Coffee brokerage SaaS**
 
-- Monorepo com Next.js, Expo e pacotes compartilhados
-- PostgreSQL 17, Supabase Auth, RLS e Realtime
-- Modelagem do domínio de classificação COB, negociações, contratos e entregas
-- Sincronização de cotações externas e arquitetura multi-tenant
+`WEB + MOBILE` `RLS` `REALTIME`
+
+Turborepo with Next.js and Expo for producers, brokers and platform admins. Includes quotations, COB classification reports, contracts and deliveries.
+
+**Engineering:** PostgreSQL 17, Supabase Auth, Row Level Security, Realtime and shared domain packages.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### [InkVision](https://github.com/rickjs2005/inkvision)
 
-Plataforma SaaS multi-tenant para estúdios de tatuagem, organizada por casos de uso e portas de infraestrutura.
+**Multi-tenant studio platform**
 
-- Clean Architecture com domínio independente de framework
-- PostgreSQL, Prisma, RLS e autorização contextual
-- Socket.IO para comunicação em tempo real
-- Redis, BullMQ, workers, Stripe e armazenamento compatível com R2
-- State machine para o ciclo completo de pedidos
+`DOMAIN CORE` `REALTIME` `STATE MACHINE`
 
-### [Kavita API](https://github.com/rickjs2005/ecommerce-do-agro-backend)
+SaaS organized around framework-independent use cases and infrastructure ports. Supports orders, budgets, realtime chat, scheduling and payments.
 
-API REST para uma plataforma de comércio e conteúdo do setor agro.
+**Engineering:** Prisma, PostgreSQL, Redis, BullMQ, Socket.IO, Stripe, R2-compatible storage and contextual authorization.
 
-- Arquitetura em camadas: rotas, controllers, services e repositories
-- MySQL, Redis, migrations e validação com Zod
-- JWT em cookies HttpOnly, CSRF, CORS, Helmet e rate limiting
-- Testes unitários e de integração com Jest e Supertest
-- Swagger, logs estruturados, health checks e múltiplos provedores de storage
+</td>
+<td width="50%" valign="top">
 
-### [Kavita Frontend](https://github.com/rickjs2005/ecommerce-do-agro-frontend)
+### [Kavita Platform](https://github.com/rickjs2005/ecommerce-do-agro-backend)
 
-Aplicação Next.js com área pública, conta do usuário, checkout e painel administrativo.
+**Commerce and content system**
 
-- App Router, React Server Components, SWR e contratos validados com Zod
-- Catálogo, pedidos, pagamentos, conteúdo e gestão administrativa
-- Vitest, Testing Library, Sentry e suporte PWA
-- Documentação de arquitetura, fluxos críticos, testes e deploy
+`REST API` `SECURITY` `TESTING`
 
-## Creative engineering
+Node.js/Express API and a separate [Next.js frontend](https://github.com/rickjs2005/ecommerce-do-agro-frontend), with commerce, content, users, payments and administration.
 
-Também exploro gráficos e interação em tempo real. O projeto **[Aurex Motors](https://github.com/rickjs2005/aurex-motors)** renderiza um automóvel procedural em Three.js/React Three Fiber, com câmera, iluminação e configuração controladas por estado mutável fora do ciclo de renderização do React.
+**Engineering:** layered architecture, MySQL, Redis, Zod, HttpOnly auth, CSRF, rate limiting, Swagger, Jest, Supertest and Vitest.
+
+</td>
+</tr>
+</table>
+
+## 03 — Toolbox
+
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-111318?style=for-the-badge&logo=typescript&logoColor=F4B860" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Node.js-111318?style=for-the-badge&logo=nodedotjs&logoColor=F4B860" alt="Node.js">
+  <img src="https://img.shields.io/badge/Next.js-111318?style=for-the-badge&logo=nextdotjs&logoColor=F4B860" alt="Next.js">
+  <img src="https://img.shields.io/badge/PostgreSQL-111318?style=for-the-badge&logo=postgresql&logoColor=F4B860" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Prisma-111318?style=for-the-badge&logo=prisma&logoColor=F4B860" alt="Prisma">
+  <img src="https://img.shields.io/badge/Redis-111318?style=for-the-badge&logo=redis&logoColor=F4B860" alt="Redis">
+  <img src="https://img.shields.io/badge/Docker-111318?style=for-the-badge&logo=docker&logoColor=F4B860" alt="Docker">
+  <img src="https://img.shields.io/badge/Playwright-111318?style=for-the-badge&logo=playwright&logoColor=F4B860" alt="Playwright">
+</p>
+
+| Architecture | Platform | Quality |
+| --- | --- | --- |
+| Clean Architecture | REST and Realtime | Automated tests |
+| Modular monoliths | Workers and queues | Structured logging |
+| Domain modeling | Web and mobile | Health checks |
+| Multi-tenancy and RLS | External integrations | Security by design |
+
+## 04 — Technical interests
+
+```text
+domain modeling       → rules that remain explicit
+authorization         → tenant isolation and contextual access
+async processing      → queues, retries and idempotency
+realtime systems      → events, presence and messaging
+observability         → logs, health checks and production signals
+developer experience  → documentation, repeatable setup and safe migrations
+```
+
+## 05 — Creative engineering
+
+Beyond application engineering, I explore realtime graphics and interaction. **[Aurex Motors](https://github.com/rickjs2005/aurex-motors)** renders a procedural vehicle with Three.js and React Three Fiber, using a mutable world model for animation without React re-renders.
 
 ---
 
 <div align="center">
 
-Aberto a oportunidades em **engenharia full-stack, backend e desenvolvimento de produtos digitais**.
+### Build systems, not just screens.
 
-[Conhecer meu trabalho](https://milweb.com.br)
+Full-stack engineering · Backend · Digital products
+
+[**milweb.com.br**](https://milweb.com.br)
 
 </div>
