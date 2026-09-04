@@ -76,8 +76,8 @@ This card is generated daily from public GitHub activity. No manually entered me
 ### Atividade recente / Recent activity
 
 <!--START_SECTION:activity-->
-- `PUSH` [milweb](https://github.com/rickjs2005/milweb) — branch update · 2026-09-01
 - `PUSH` [millead](https://github.com/rickjs2005/millead) — branch update · 2026-09-02
+- `PUSH` [milweb](https://github.com/rickjs2005/milweb) — branch update · 2026-09-01
 - `PUSH` [terral](https://github.com/rickjs2005/terral) — branch update · 2026-09-02
 - `CREATE` [milweb](https://github.com/rickjs2005/milweb) — branch · claude/mexe-card-kavita-drones-p5jacp · 2026-08-31
 - `CREATE` [millead](https://github.com/rickjs2005/millead) — branch · feat/post-sale-automation · 2026-08-27
