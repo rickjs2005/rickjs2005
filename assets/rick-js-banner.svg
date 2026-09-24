@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Rick JS — Engenharia e experiência digital</title>
+<desc id="desc">Capa escura com detalhes dourados, assinatura Rick JS e a frase Sistemas sólidos, experiências memoráveis.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090d12"/><stop offset=".55" stop-color="#111821"/><stop offset="1" stop-color="#090d12"/></linearGradient>
+  <linearGradient id="gold" x2="1"><stop stop-color="#80612d"/><stop offset=".45" stop-color="#f3d18c"/><stop offset="1" stop-color="#b88b42"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#b88b42" stop-opacity=".18"/><stop offset="1" stop-color="#b88b42" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#c6a66f" stroke-opacity=".075"/></pattern>
+</defs>
+<rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+<circle cx="970" cy="150" r="240" fill="url(#glow)"/>
+<path d="M0 268h1200" stroke="url(#gold)" stroke-opacity=".55"/>
+<path d="M750 0l-94 320M835 0l-94 320M920 0l-94 320" stroke="#d0a662" stroke-opacity=".1"/>
+<path d="M1010 29v39h-99v64h163v64h-90v83" fill="none" stroke="url(#gold)" stroke-width="2" stroke-opacity=".5"/>
+<circle cx="911" cy="68" r="5" fill="#e2bd76"/><circle cx="1074" cy="196" r="5" fill="#e2bd76"/><circle cx="984" cy="279" r="5" fill="#e2bd76"/>
+<rect x="56" y="39" width="195" height="25" rx="12" fill="#dcb977" fill-opacity=".1" stroke="#dcb977" stroke-opacity=".45"/>
+<text x="72" y="56" fill="#ecd09a" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2">FULL-STACK ENGINEER</text>
+<text x="54" y="149" fill="#f4f2ed" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="-5">RICK<tspan fill="url(#gold)"> JS.</tspan></text>
+<rect x="57" y="171" width="55" height="3" fill="url(#gold)"/>
+<text x="56" y="211" fill="#e2e1dc" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600">Sistemas sólidos. Experiências memoráveis.</text>
+<text x="57" y="245" fill="#aab1bb" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1">PRODUTO  /  ARQUITETURA  /  WEB CRIATIVA</text>
+<text x="57" y="299" fill="#aab1bb" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2">BRASIL  ·  PROJETOS PARA O MUNDO</text>
+</svg>
