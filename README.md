@@ -52,6 +52,32 @@ Sites e experiências com direção visual, movimento e atenção à performance
 <tr>
 <td width="50%" valign="top">
 
+### [MilWeb ↗](https://milweb.com.br)
+**Meu estúdio e portfólio**
+
+Sites, landing pages e sistemas web sob medida, com direção visual, animação e conteúdo em português, inglês e espanhol.
+
+`Next.js` `React` `TypeScript` `GSAP`
+
+[Ver site →](https://milweb.com.br) · [Explorar código →](https://github.com/rickjs2005/milweb)
+
+</td>
+<td width="50%" valign="top">
+
+### [Terral ↗](https://terral-delta.vercel.app/)
+**Conceito visual para uma marca de café**
+
+Da montanha à xícara: cinco capítulos com vídeo, conteúdo editorial e movimento guiado pela rolagem. Projeto fictício de portfólio.
+
+`Next.js` `Three.js` `GSAP` `Lenis`
+
+[Ver demo →](https://terral-delta.vercel.app/) · [Explorar código →](https://github.com/rickjs2005/terral)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### [MilLead ↗](https://github.com/rickjs2005/millead)
 **CRM e operação da MilWeb**
 
@@ -107,9 +133,8 @@ API com autenticação, segurança, documentação e testes, conectada a um [fro
 
 | Projeto | Experiência | Código |
 | :--- | :--- | :--- |
-| **Aurex Motors** | Carro procedural em Three.js, cenas e câmera guiadas pelo scroll | [Ver projeto ↗](https://github.com/rickjs2005/aurex-motors) |
+| **Aurex Motors** | Modelo 3D em GLB, materiais configuráveis e câmera guiada pelo scroll | [Ver projeto ↗](https://github.com/rickjs2005/aurex-motors) |
 | **Atelier Vertex** | Arquitetura fictícia com vídeo controlado pelo scroll | [Ver projeto ↗](https://github.com/rickjs2005/atelier-vertex-v2) |
-| **Terral** | Experiência digital inspirada no universo do café | [Ver site ↗](https://terral-delta.vercel.app/) |
 
 ## Atividade pública / Public activity
 
