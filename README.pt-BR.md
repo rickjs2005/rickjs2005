@@ -2,165 +2,95 @@
 
 **Português** · [English](README.md)
 
-<img src="./assets/rick-js-banner.svg" width="100%" alt="Rick JS — Sistemas sólidos. Experiências memoráveis.">
-
-<br>
+<img src="./assets/rick-js-banner.pt-BR.svg" width="100%" alt="Rick JS — desenvolvedor full-stack, fundador da MilWeb. Sistemas sólidos. Experiências memoráveis.">
 
 **Desenvolvedor full-stack · fundador da [MilWeb](https://milweb.com.br)**
 
-Construo produtos digitais de ponta a ponta: modelo de domínio, API, interface e experiência.
+Desenvolvo produtos web de ponta a ponta — dados, APIs e interfaces — com foco em interfaces premium, animação e 3D em tempo real.
 
-<br>
-
-[Portfólio — milweb.com.br](https://milweb.com.br) · [Projetos em destaque](#projetos-em-destaque) · [LinkedIn](https://www.linkedin.com/in/rick-januario-41211b238/)
+[Portfólio — milweb.com.br](https://milweb.com.br) · [LinkedIn](https://www.linkedin.com/in/rick-januario-41211b238/) · [Projetos em destaque](#projetos-em-destaque)
 
 </div>
 
----
+### O que eu desenvolvo
 
-### O que eu construo
+- **Produtos e plataformas** — regras de negócio, APIs, autenticação, dados e recursos em tempo real.
+- **Experiências web visuais** — direção de arte, animação no scroll e 3D, com atenção à performance.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**01 / Produtos e plataformas**
-
-Aplicações web com regras de negócio reais: modelagem de domínio, APIs, dados, autenticação, processamento em segundo plano e recursos em tempo real.
-
-</td>
-<td width="50%" valign="top">
-
-**02 / Web que se destaca**
-
-Sites e experiências com direção visual, movimento, 3D e atenção à performance. Interface e engenharia caminham juntas, do conceito ao deploy.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-`TypeScript` · `Next.js` · `React` · `Node.js` · `PostgreSQL` · `Prisma` · `Redis` · `Three.js / React Three Fiber` · `GSAP` · `Tailwind CSS` · `Expo`
-
-</div>
+`TypeScript` · `Next.js` · `React` · `Node.js` · `PostgreSQL` · `Three.js` · `GSAP`
 
 ## Projetos em destaque
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### [MilWeb ↗](https://milweb.com.br)
-**Meu estúdio e portfólio**
-
-Site do estúdio em português, inglês e espanhol, com hero 3D, animação guiada pela rolagem e o portfólio de projetos.
-
-`Next.js` `React Three Fiber` `GSAP` `Lenis` `Tailwind CSS`
-
-[Site →](https://milweb.com.br) · [Código →](https://github.com/rickjs2005/milweb)
-
+<a href="https://milweb.com.br"><img src="./assets/projects/milweb.webp" width="100%" alt="Página inicial do site da MilWeb com o título “Code moves the world”"></a>
+<h3>MilWeb</h3>
+<p>Site e portfólio do meu estúdio, em português, inglês e espanhol, com hero em 3D com globo e seções guiadas pelo scroll.</p>
+<p><code>Next.js</code> <code>React Three Fiber</code> <code>GSAP</code> <code>Tailwind CSS</code></p>
+<p><a href="https://milweb.com.br">Site ↗</a> · <a href="https://github.com/rickjs2005/milweb">Código ↗</a></p>
 </td>
 <td width="50%" valign="top">
-
-### [InkVision ↗](https://github.com/rickjs2005/inkvision)
-**SaaS multi-tenant para estúdios de tatuagem**
-
-Descoberta de artistas, orçamentos, chat em tempo real, simulação de tatuagem com IA, agenda e pagamentos, organizados em camadas (apps web, realtime e worker). Em desenvolvimento; ainda sem implantação em produção.
-
-`Next.js` `Prisma` `PostgreSQL` `Redis` `Socket.IO` `BullMQ`
-
-[Código →](https://github.com/rickjs2005/inkvision)
-
+<a href="https://github.com/rickjs2005/inkvision"><img src="./assets/projects/inkvision.webp" width="100%" alt="Página inicial do InkVision: busca de tatuadores e chamada para a simulação com IA"></a>
+<h3>InkVision</h3>
+<p>SaaS multi-tenant para estúdios de tatuagem: busca de artistas, orçamentos, chat em tempo real, prévia da tatuagem na foto do cliente e agendamento. Em desenvolvimento; pagamentos, armazenamento e IA usam provedores simulados por padrão.</p>
+<p><code>Next.js</code> <code>PostgreSQL</code> <code>Socket.IO</code> <code>BullMQ</code></p>
+<p><a href="https://github.com/rickjs2005/inkvision">Código ↗</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-### [Aurex Motors ↗](https://aurex-motors-ecru.vercel.app)
-**Site cinematográfico para uma marca fictícia de carros elétricos**
-
-Cenas 3D guiadas pela rolagem, câmera roteirizada e configurador do carro em tempo real. Marca fictícia; modelo 3D creditado no projeto.
-
-`Next.js` `React Three Fiber` `GSAP` `Lenis`
-
-[Demo →](https://aurex-motors-ecru.vercel.app) · [Código →](https://github.com/rickjs2005/aurex-motors)
-
+<a href="https://aurex-motors-ecru.vercel.app"><img src="./assets/projects/aurex-motors.webp" width="100%" alt="Configurador de carro em tempo real do Aurex Motors, com opções de pintura, rodas e iluminação da cabine"></a>
+<h3>Aurex Motors</h3>
+<p>Site cinematográfico para uma marca fictícia de carros elétricos: cenas 3D guiadas pelo scroll e configurador do carro em tempo real.</p>
+<p><code>Next.js</code> <code>React Three Fiber</code> <code>GSAP</code> <code>Lenis</code></p>
+<p><a href="https://aurex-motors-ecru.vercel.app">Demo ↗</a> · <a href="https://github.com/rickjs2005/aurex-motors">Código ↗</a></p>
 </td>
 <td width="50%" valign="top">
-
-### [Lumen Architecture ↗](https://lumen-architecture-drab.vercel.app)
-**One-page para um escritório de arquitetura fictício**
-
-Casa 3D procedural guiada pela rolagem, cena interativa e galeria de projetos, com testes unitários e end-to-end.
-
-`Vite` `React` `React Three Fiber` `GSAP` `Vitest` `Playwright`
-
-[Demo →](https://lumen-architecture-drab.vercel.app) · [Código →](https://github.com/rickjs2005/lumen-architecture)
-
+<a href="https://lumen-architecture-drab.vercel.app"><img src="./assets/projects/lumen-architecture.webp" width="100%" alt="Hero do Lumen Architecture com uma casa 3D gerada por código"></a>
+<h3>Lumen Architecture</h3>
+<p>Site para um escritório de arquitetura fictício: uma casa 3D gerada por código, que a câmera percorre conforme o scroll.</p>
+<p><code>React</code> <code>React Three Fiber</code> <code>GSAP</code> <code>Playwright</code></p>
+<p><a href="https://lumen-architecture-drab.vercel.app">Demo ↗</a> · <a href="https://github.com/rickjs2005/lumen-architecture">Código ↗</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-### [Terral ↗](https://terral-cafe.vercel.app)
-**Conceito para uma torrefação de café fictícia**
-
-Da montanha à xícara: jornada em cinco capítulos guiada pela rolagem, com grão de café 3D em tempo real e painéis horizontais.
-
-`Next.js` `React Three Fiber` `GSAP` `Lenis` `Tailwind CSS`
-
-[Demo →](https://terral-cafe.vercel.app) · [Código →](https://github.com/rickjs2005/terral)
-
+<a href="https://terral-cafe.vercel.app"><img src="./assets/projects/terral.webp" width="100%" alt="Página inicial do Terral com um grão de café em 3D em tempo real acima do nome da marca"></a>
+<h3>Terral</h3>
+<p>Conceito para uma torrefação fictícia: uma jornada em cinco capítulos no scroll, com um grão de café em 3D em tempo real.</p>
+<p><code>Next.js</code> <code>React Three Fiber</code> <code>GSAP</code> <code>Lenis</code></p>
+<p><a href="https://terral-cafe.vercel.app">Demo ↗</a> · <a href="https://github.com/rickjs2005/terral">Código ↗</a></p>
 </td>
 <td width="50%" valign="top">
-
-### [Aurex Timepieces ↗](https://aurex-timepieces.vercel.app)
-**Conceito para uma marca fictícia de relógios**
-
-Relógio 100% procedural em Three.js que se desmonta e remonta com a rolagem, com configurador de caixa, mostrador e ponteiros.
-
-`Next.js` `React Three Fiber` `GSAP` `Lenis`
-
-[Demo →](https://aurex-timepieces.vercel.app) · [Código →](https://github.com/rickjs2005/aurex-timepieces)
-
+<a href="https://aurex-timepieces.vercel.app"><img src="./assets/projects/aurex-timepieces.webp" width="100%" alt="Hero do Aurex Timepieces com um relógio 3D procedural"></a>
+<h3>Aurex Timepieces</h3>
+<p>Conceito para uma marca fictícia de relógios: um relógio procedural em Three.js que se desmonta no scroll, com configurador de caixa, mostrador e ponteiros.</p>
+<p><code>Next.js</code> <code>React Three Fiber</code> <code>GSAP</code> <code>Lenis</code></p>
+<p><a href="https://aurex-timepieces.vercel.app">Demo ↗</a> · <a href="https://github.com/rickjs2005/aurex-timepieces">Código ↗</a></p>
 </td>
 </tr>
 </table>
 
+## Atualizações recentes
+
+- **Set 2026 · MilWeb** — nova direção da página inicial: abertura orbital, galeria editorial de projetos com capturas reais e menu mobile acessível. ([commit](https://github.com/rickjs2005/milweb/commit/df4aed976f614c0061348372ce289b311bd7eeb1))
+- **Set 2026 · MilWeb** — “MilWeb System”: um registro único para todas as seções do site e um HUD na tela que mostra leituras reais do dispositivo (viewport, densidade de pixels, ponteiro, movimento reduzido). ([commit](https://github.com/rickjs2005/milweb/commit/7cffe5c35a59f84033b52be88ed103b3dd09a918))
+
 ## Mais projetos
 
-| Projeto | O que é | Links |
-| :--- | :--- | :--- |
-| **Atelier Vertex** | Escritório de arquitetura fictício; a rolagem controla um vídeo de construção em tela cheia (Next.js, GSAP ScrollTrigger, Lenis) | [Demo](https://atelier-vertex-v2.vercel.app) · [Código](https://github.com/rickjs2005/atelier-vertex-v2) |
-| **RJS Laticínios** | Marca fictícia de laticínios: mascote SVG interativo, temas por sabor e produtos em 3D (Next.js, SCSS Modules, GSAP, React Three Fiber) | [Demo](https://rjs-laticinios.vercel.app) · [Código](https://github.com/rickjs2005/rjs-laticinios) |
-| **Copa 2026** | Site editorial fan-made e não oficial sobre a história das Copas, com estádios recriados em 3D; sem vínculo com a FIFA (Next.js, React Three Fiber) | [Demo](https://copa2026-alpha.vercel.app) · [Código](https://github.com/rickjs2005/copa2026) |
-| **RockVerse** | Site conceito fan-made e não comercial sobre a história do rock; sem vínculo com artistas ou gravadoras (Next.js, Framer Motion) | [Código](https://github.com/rickjs2005/rockverse) |
-| **Império do Café** | Jogo offline de gestão de fazendas de café para iOS/Android, em desenvolvimento e fora das lojas de apps (Expo, React Native) | [Código](https://github.com/rickjs2005/rpg-mobile) |
-| **MilWeb Video Studio** | Skill do Claude Code (pt-BR) para produção de conteúdo e vídeo para redes sociais, com script Python de auditoria de mídia testado | [Código](https://github.com/rickjs2005/milweb-video-studio) |
+- [Atelier Vertex](https://github.com/rickjs2005/atelier-vertex-v2) — escritório de arquitetura fictício; o scroll conduz um filme da construção.
+- [RJS Laticínios](https://github.com/rickjs2005/rjs-laticinios) — marca fictícia de laticínios com mascote SVG interativo e produtos em 3D.
+- [Império do Café](https://github.com/rickjs2005/rpg-mobile) — jogo offline de gestão de fazenda de café para iOS e Android (Expo), em desenvolvimento.
 
-## Atividade pública
-
-<img src="./assets/live-status.svg" width="100%" alt="Resumo automático da atividade pública no GitHub">
-
-<sub>Atualizada automaticamente a partir de eventos públicos do GitHub; não reflete o trabalho em repositórios privados.</sub>
-
-<!--START_SECTION:activity-->
-- `PUSH` [age-of-dragons](https://github.com/rickjs2005/age-of-dragons) — branch update · 2026-10-13
-- `PUSH` [loja-iphone](https://github.com/rickjs2005/loja-iphone) — branch update · 2026-10-13
-- `PUSH` [one-piece-cinematic](https://github.com/rickjs2005/one-piece-cinematic) — branch update · 2026-10-13
-- `PUSH` [nexus-geek-store](https://github.com/rickjs2005/nexus-geek-store) — branch update · 2026-10-13
-- `PUSH` [akatsuki-loja-animes](https://github.com/rickjs2005/akatsuki-loja-animes) — branch update · 2026-10-13
-<!--END_SECTION:activity-->
+[Todos os repositórios públicos →](https://github.com/rickjs2005?tab=repositories)
 
 ---
 
 <div align="center">
 
-**Tem um projeto em mente?** [Veja meu trabalho e entre em contato pela MilWeb ↗](https://milweb.com.br)
+**Tem um projeto em mente?** [Conheça a MilWeb e vamos conversar ↗](https://milweb.com.br)
 
-<sub>Construir, medir, aprender, simplificar.</sub>
-
-<sub>A seção de atividade é atualizada por `.github/workflows/update-profile.yml` (`scripts/update-profile.mjs`). Ainda não há licença definida; todos os direitos reservados ao autor.</sub>
+<sub>Este repositório ainda não tem licença definida; todos os direitos reservados.</sub>
 
 </div>
