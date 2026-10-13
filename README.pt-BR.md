@@ -2,7 +2,7 @@
 
 **Português** · [English](README.md)
 
-<img src="./assets/rick-js-banner.pt-BR.svg" width="100%" alt="Rick JS — desenvolvedor full-stack, fundador da MilWeb. Sistemas sólidos. Experiências memoráveis.">
+<img src="./assets/rick-js-banner.pt-BR.svg" width="100%" alt="Rick Januario — Desenvolvedor Full-stack · Fundador da MilWeb · milweb.com.br">
 
 **Desenvolvedor full-stack · fundador da [MilWeb](https://milweb.com.br)**
 

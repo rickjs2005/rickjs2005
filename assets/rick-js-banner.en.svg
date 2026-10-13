@@ -1,25 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-<title id="title">Rick JS — full-stack developer, founder of MilWeb</title>
-<desc id="desc">Dark cover with gold details: Rick JS, full-stack developer and founder of MilWeb. Solid systems. Memorable experiences. Products, interfaces, motion and 3D.</desc>
-<defs>
-  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090d12"/><stop offset=".55" stop-color="#111821"/><stop offset="1" stop-color="#090d12"/></linearGradient>
-  <linearGradient id="gold" x2="1"><stop stop-color="#80612d"/><stop offset=".45" stop-color="#f3d18c"/><stop offset="1" stop-color="#b88b42"/></linearGradient>
-  <radialGradient id="glow"><stop stop-color="#b88b42" stop-opacity=".18"/><stop offset="1" stop-color="#b88b42" stop-opacity="0"/></radialGradient>
-  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#c6a66f" stroke-opacity=".07"/></pattern>
-</defs>
-<rect width="1200" height="360" rx="18" fill="url(#bg)"/>
-<rect width="1200" height="360" rx="18" fill="url(#grid)"/>
-<circle cx="1020" cy="170" r="250" fill="url(#glow)"/>
-<path d="M0 316h1200" stroke="url(#gold)" stroke-opacity=".5"/>
-<path d="M930 0l-94 360M1010 0l-94 360M1090 0l-94 360" stroke="#d0a662" stroke-opacity=".09"/>
-<path d="M1080 34v42h-96v68h150v70h-84v96" fill="none" stroke="url(#gold)" stroke-width="2" stroke-opacity=".5"/>
-<circle cx="984" cy="76" r="6" fill="#e2bd76"/><circle cx="1134" cy="214" r="6" fill="#e2bd76"/><circle cx="1050" cy="310" r="6" fill="#e2bd76"/>
-<g font-family="Arial, Helvetica, sans-serif">
-<rect x="56" y="40" width="380" height="34" rx="17" fill="#dcb977" fill-opacity=".1" stroke="#dcb977" stroke-opacity=".45"/>
-<text x="74" y="63" fill="#ecd09a" font-size="17" font-weight="700" letter-spacing="2">FULL-STACK DEVELOPER · MILWEB</text>
-<text x="52" y="176" fill="#f4f2ed" font-size="104" font-weight="800" letter-spacing="-5">RICK<tspan fill="url(#gold)"> JS.</tspan></text>
-<rect x="57" y="198" width="64" height="4" fill="url(#gold)"/>
-<text x="56" y="250" fill="#e9e7e1" font-size="34" font-weight="700">Solid systems. Memorable experiences.</text>
-<text x="57" y="296" fill="#b8bec7" font-size="22" font-weight="700" letter-spacing="2">PRODUCTS  ·  INTERFACES  ·  MOTION  ·  3D</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Rick Januario — Full-stack Developer, Founder of MilWeb</title>
+<desc id="desc">Graphite banner with the name Rick Januario, the subtitle Full-stack Developer · Founder of MilWeb, and milweb.com.br.</desc>
+<rect width="1200" height="300" rx="16" fill="#1B1C1F"/>
+<g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect x="72" y="52" width="14" height="14" fill="#B7FF37"/>
+<text x="68" y="156" fill="#F2F0EA" font-size="84" font-weight="700" letter-spacing="-2.5">Rick Januario</text>
+<text x="72" y="214" fill="#C9C7C0" font-size="34" font-weight="400">Full-stack Developer<tspan fill="#B7FF37" font-weight="700"> · </tspan>Founder of MilWeb</text>
+<text x="72" y="262" fill="#8E8D87" font-size="22" letter-spacing="1">milweb.com.br</text>
 </g>
 </svg>
