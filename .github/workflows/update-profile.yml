@@ -33,7 +33,9 @@ jobs:
         run: gh api "users/${GITHUB_REPOSITORY_OWNER}/events/public?per_page=100" > events.json
 
       - name: Generate profile signal
-        run: node scripts/update-profile.mjs events.json README.md
+        run: |
+          node scripts/update-profile.mjs events.json README.md
+          node scripts/update-profile.mjs events.json README.pt-BR.md
 
       - name: Commit updated signal
         run: |
@@ -44,6 +46,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/live-status.svg
+          git add README.md README.pt-BR.md assets/live-status.svg
           git commit -m "chore: refresh public profile signal"
           git push
