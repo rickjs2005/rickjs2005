@@ -146,11 +146,11 @@ A fully procedural Three.js watch that disassembles and reassembles on scroll, w
 <sub>Updated automatically from public GitHub events; it does not reflect work in private repositories.</sub>
 
 <!--START_SECTION:activity-->
-- `CREATE` [panico-de-estado](https://github.com/rickjs2005/panico-de-estado) — branch · claude/sleepy-meitner-xy8cuu · 2026-10-12
-- `PUSH` [atlas-politico](https://github.com/rickjs2005/atlas-politico) — branch update · 2026-10-12
-- `CREATE` [atlas-politico](https://github.com/rickjs2005/atlas-politico) — branch · main · 2026-10-10
-- `PUSH` [milweb-video-studio](https://github.com/rickjs2005/milweb-video-studio) — branch update · 2026-10-07
-- `CREATE` [milweb-video-studio](https://github.com/rickjs2005/milweb-video-studio) — branch · main · 2026-09-27
+- `PUSH` [age-of-dragons](https://github.com/rickjs2005/age-of-dragons) — branch update · 2026-10-13
+- `PUSH` [loja-iphone](https://github.com/rickjs2005/loja-iphone) — branch update · 2026-10-13
+- `PUSH` [one-piece-cinematic](https://github.com/rickjs2005/one-piece-cinematic) — branch update · 2026-10-13
+- `PUSH` [nexus-geek-store](https://github.com/rickjs2005/nexus-geek-store) — branch update · 2026-10-13
+- `PUSH` [akatsuki-loja-animes](https://github.com/rickjs2005/akatsuki-loja-animes) — branch update · 2026-10-13
 <!--END_SECTION:activity-->
 
 ---
