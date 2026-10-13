@@ -1,40 +1,39 @@
 <div align="center">
 
-<img src="./assets/rick-js-banner.svg" width="100%" alt="Rick JS — Sistemas sólidos. Experiências memoráveis.">
+[Português](README.pt-BR.md) · **English**
+
+<img src="./assets/rick-js-banner.svg" width="100%" alt="Rick JS — Sistemas sólidos. Experiências memoráveis. (Solid systems. Memorable experiences.)">
 
 <br>
 
-**Engenheiro full-stack · fundador da [MilWeb](https://milweb.com.br)**
+**Full-stack developer · founder of [MilWeb](https://milweb.com.br)**
 
-Construo produtos digitais de ponta a ponta: domínio, API, interface e experiência.  
-<sub>Full-stack engineer building digital products from domain model to interface and experience.</sub>
+I build digital products end to end: domain model, API, interface and experience.
 
-<br><br>
+<br>
 
-[![Portfólio](https://img.shields.io/badge/VER%20PORTF%C3%93LIO-milweb.com.br-D8AE66?style=for-the-badge&labelColor=10151B)](https://milweb.com.br)
-[![Projetos](https://img.shields.io/badge/EXPLORAR-PROJETOS-D8AE66?style=for-the-badge&labelColor=10151B)](#projetos-em-destaque--featured-work)
-[![LinkedIn](https://img.shields.io/badge/CONECTAR-LINKEDIN-D8AE66?style=for-the-badge&labelColor=10151B)](https://www.linkedin.com/in/rick-januario-41211b238/)
+[Portfolio — milweb.com.br](https://milweb.com.br) · [Featured work](#featured-work) · [LinkedIn](https://www.linkedin.com/in/rick-januario-41211b238/)
 
 </div>
 
 ---
 
-### O que eu construo / What I build
+### What I build
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**01 / Produtos e plataformas**
+**01 / Products and platforms**
 
-SaaS, operações comerciais, e-commerce e ferramentas com regras de negócio reais. Trabalho com modelagem de domínio, APIs, dados, autenticação e fluxos confiáveis.
+Web applications with real business rules: domain modeling, APIs, data, authentication, background jobs and real-time features.
 
 </td>
 <td width="50%" valign="top">
 
-**02 / Web que se destaca**
+**02 / Web that stands out**
 
-Sites e experiências com direção visual, movimento e atenção à performance. Interface e engenharia caminham juntas — do conceito ao deploy.
+Websites and experiences with visual direction, motion, 3D and attention to performance. Interface and engineering go together, from concept to deploy.
 
 </td>
 </tr>
@@ -42,105 +41,109 @@ Sites e experiências com direção visual, movimento e atenção à performance
 
 <div align="center">
 
-`TypeScript` · `Next.js` · `React` · `Node.js` · `PostgreSQL` · `Three.js` · `GSAP`
+`TypeScript` · `Next.js` · `React` · `Node.js` · `PostgreSQL` · `Prisma` · `Redis` · `Three.js / React Three Fiber` · `GSAP` · `Tailwind CSS` · `Expo`
 
 </div>
 
-## Projetos em destaque / Featured work
+## Featured work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### [MilWeb ↗](https://milweb.com.br)
-**Meu estúdio e portfólio**
+**My studio and portfolio**
 
-Sites, landing pages e sistemas web sob medida, com direção visual, animação e conteúdo em português, inglês e espanhol.
+Studio website in Portuguese, English and Spanish, with a 3D hero, scroll animation and the project portfolio.
 
-`Next.js` `React` `TypeScript` `GSAP`
+`Next.js` `React Three Fiber` `GSAP` `Lenis` `Tailwind CSS`
 
-[Ver site →](https://milweb.com.br) · [Explorar código →](https://github.com/rickjs2005/milweb)
-
-</td>
-<td width="50%" valign="top">
-
-### [Terral ↗](https://terral-delta.vercel.app/)
-**Conceito visual para uma marca de café**
-
-Da montanha à xícara: cinco capítulos com vídeo, conteúdo editorial e movimento guiado pela rolagem. Projeto fictício de portfólio.
-
-`Next.js` `Three.js` `GSAP` `Lenis`
-
-[Ver demo →](https://terral-delta.vercel.app/) · [Explorar código →](https://github.com/rickjs2005/terral)
+[Website →](https://milweb.com.br) · [Code →](https://github.com/rickjs2005/milweb)
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [MilLead ↗](https://github.com/rickjs2005/millead)
-**CRM e operação da MilWeb**
-
-Da prospecção ao pós-venda: leads, pipeline, contratos, projetos e automações em um monólito modular multi-tenant.
-
-`Next.js` `Node.js` `PostgreSQL` `Prisma`
-
-[Explorar código →](https://github.com/rickjs2005/millead)
-
-</td>
-<td width="50%" valign="top">
-
-### [Milsaca ↗](https://github.com/rickjs2005/milsaca)
-**Tecnologia para a cadeia do café**
-
-Produto web e mobile para produtores, corretoras e administração: cotações, classificação, contratos e entregas.
-
-`Next.js` `Expo` `Supabase` `Turborepo`
-
-[Explorar código →](https://github.com/rickjs2005/milsaca)
-
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [InkVision ↗](https://github.com/rickjs2005/inkvision)
-**Plataforma para estúdios de tatuagem**
+**Multi-tenant SaaS for tattoo studios**
 
-Descoberta de artistas, pedidos, orçamento, chat e simulação de arte. Domínio, estados e trabalho assíncrono organizados em camadas.
+Artist discovery, quotes, real-time chat, AI tattoo simulation, scheduling and payments, organized in layers (web, realtime and worker apps). In development; no production deployment yet.
 
-`PostgreSQL` `Redis` `Socket.IO` `BullMQ`
+`Next.js` `Prisma` `PostgreSQL` `Redis` `Socket.IO` `BullMQ`
 
-[Explorar código →](https://github.com/rickjs2005/inkvision)
+[Code →](https://github.com/rickjs2005/inkvision)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Aurex Motors ↗](https://aurex-motors-ecru.vercel.app)
+**Cinematic site for a fictional EV brand**
+
+Scroll-driven 3D scenes, scripted camera and a real-time car configurator. Fictional brand; 3D model credited in the project.
+
+`Next.js` `React Three Fiber` `GSAP` `Lenis`
+
+[Demo →](https://aurex-motors-ecru.vercel.app) · [Code →](https://github.com/rickjs2005/aurex-motors)
 
 </td>
 <td width="50%" valign="top">
 
-### [Kavita Platform ↗](https://github.com/rickjs2005/ecommerce-do-agro-backend)
-**Comércio e conteúdo para o agro**
+### [Lumen Architecture ↗](https://lumen-architecture-drab.vercel.app)
+**One-page site for a fictional architecture studio**
 
-API com autenticação, segurança, documentação e testes, conectada a um [frontend Next.js](https://github.com/rickjs2005/ecommerce-do-agro-frontend).
+Scroll-driven procedural 3D house, interactive scene and project gallery, with unit and end-to-end tests.
 
-`Node.js` `Express` `MySQL` `Jest`
+`Vite` `React` `React Three Fiber` `GSAP` `Vitest` `Playwright`
 
-[Backend →](https://github.com/rickjs2005/ecommerce-do-agro-backend) · [Frontend →](https://github.com/rickjs2005/ecommerce-do-agro-frontend)
+[Demo →](https://lumen-architecture-drab.vercel.app) · [Code →](https://github.com/rickjs2005/lumen-architecture)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Terral ↗](https://terral-cafe.vercel.app)
+**Concept for a fictional coffee roastery**
+
+From mountain to cup: a five-chapter scroll journey with a real-time 3D coffee bean and horizontal panels.
+
+`Next.js` `React Three Fiber` `GSAP` `Lenis` `Tailwind CSS`
+
+[Demo →](https://terral-cafe.vercel.app) · [Code →](https://github.com/rickjs2005/terral)
+
+</td>
+<td width="50%" valign="top">
+
+### [Aurex Timepieces ↗](https://aurex-timepieces.vercel.app)
+**Concept for a fictional watch brand**
+
+A fully procedural Three.js watch that disassembles and reassembles on scroll, with a case/dial/hands configurator.
+
+`Next.js` `React Three Fiber` `GSAP` `Lenis`
+
+[Demo →](https://aurex-timepieces.vercel.app) · [Code →](https://github.com/rickjs2005/aurex-timepieces)
 
 </td>
 </tr>
 </table>
 
-## Engenharia criativa / Creative engineering
+## More projects
 
-| Projeto | Experiência | Código |
+| Project | What it is | Links |
 | :--- | :--- | :--- |
-| **Aurex Motors** | Modelo 3D em GLB, materiais configuráveis e câmera guiada pelo scroll | [Ver projeto ↗](https://github.com/rickjs2005/aurex-motors) |
-| **Atelier Vertex** | Arquitetura fictícia com vídeo controlado pelo scroll | [Ver projeto ↗](https://github.com/rickjs2005/atelier-vertex-v2) |
+| **Atelier Vertex** | Fictional architecture studio; scrolling scrubs a full-screen construction video (Next.js, GSAP ScrollTrigger, Lenis) | [Demo](https://atelier-vertex-v2.vercel.app) · [Code](https://github.com/rickjs2005/atelier-vertex-v2) |
+| **RJS Laticínios** | Fictional dairy brand: interactive SVG mascot, flavor-based theming and 3D product views (Next.js, SCSS Modules, GSAP, React Three Fiber) | [Demo](https://rjs-laticinios.vercel.app) · [Code](https://github.com/rickjs2005/rjs-laticinios) |
+| **Copa 2026** | Fan-made, unofficial editorial site about World Cup history with stadiums recreated in 3D; not affiliated with FIFA (Next.js, React Three Fiber) | [Demo](https://copa2026-alpha.vercel.app) · [Code](https://github.com/rickjs2005/copa2026) |
+| **RockVerse** | Fan-made, non-commercial concept site about the history of rock; not affiliated with any artist or label (Next.js, Framer Motion) | [Code](https://github.com/rickjs2005/rockverse) |
+| **Império do Café** | Offline coffee-farming management game for iOS/Android, in development and not on app stores (Expo, React Native) | [Code](https://github.com/rickjs2005/rpg-mobile) |
+| **MilWeb Video Studio** | Claude Code skill (pt-BR) for social content and video production, with a tested Python media-audit script | [Code](https://github.com/rickjs2005/milweb-video-studio) |
 
-## Atividade pública / Public activity
+## Public activity
 
-<img src="./assets/live-status.svg" width="100%" alt="Resumo automático da atividade pública no GitHub">
+<img src="./assets/live-status.svg" width="100%" alt="Automatic summary of public GitHub activity">
 
-<sub>A atividade abaixo considera eventos públicos e pode não refletir o trabalho em repositórios privados. / Public events do not represent work in private repositories.</sub>
+<sub>Updated automatically from public GitHub events; it does not reflect work in private repositories.</sub>
 
 <!--START_SECTION:activity-->
 - `CREATE` [panico-de-estado](https://github.com/rickjs2005/panico-de-estado) — branch · claude/sleepy-meitner-xy8cuu · 2026-10-12
@@ -154,8 +157,10 @@ API com autenticação, segurança, documentação e testes, conectada a um [fro
 
 <div align="center">
 
-**Tem um projeto em mente?** [Veja meu trabalho e entre em contato pela MilWeb ↗](https://milweb.com.br)
+**Have a project in mind?** [See my work and get in touch through MilWeb ↗](https://milweb.com.br)
 
-<sub>Construir, medir, aprender, simplificar. / Build, measure, learn, simplify.</sub>
+<sub>Build, measure, learn, simplify.</sub>
+
+<sub>The activity section is refreshed by `.github/workflows/update-profile.yml` (`scripts/update-profile.mjs`). No license has been chosen yet; all rights reserved by the author.</sub>
 
 </div>
